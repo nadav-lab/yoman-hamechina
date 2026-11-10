@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>פרטיות יומן המכינה</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Frank+Ruhl+Libre:wght@600&display=swap">
+<style>
+/* Layout: one readable column, plain legal document with clear section heads */
+:root {
+  --bg: #f7f6fb; --fg: #1d1a27; --muted: #5f5a73; --line: #dedbea; --accent: #4b3fb0;
+  --display: "Frank Ruhl Libre", "Times New Roman", serif;
+  --body: "Assistant", "Arial Hebrew", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #14121b; --fg: #ecebf3; --muted: #a39db6; --line: #2c2838; --accent: #a99cff; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #14121b; --fg: #ecebf3; --muted: #a39db6; --line: #2c2838; --accent: #a99cff; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.65; }
+main { max-width: 680px; margin: 0 auto; padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font-family: var(--display); font-size: 2rem; margin: 0 0 4px; text-wrap: balance; }
+.meta { color: var(--muted); font-size: .9rem; margin: 0 0 28px; }
+h2 { font-size: 1.15rem; margin: 30px 0 6px; color: var(--accent); text-wrap: balance; }
+p, li { margin: 0 0 10px; }
+ul { padding-inline-start: 22px; margin: 0 0 10px; }
+section { border-top: 1px solid var(--line); }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main dir="rtl" lang="he">
+  <h1>יומן המכינה – מדיניות פרטיות</h1>
+  <p class="meta">עודכן: 10 בנובמבר 2026 · Privacy Policy (English summary at the end)</p>
+
+  <p>"יומן המכינה" היא אפליקציה לסטודנטים לניהול הלימודים: מערכת שעות, מטלות, הקלטת שיעורים, תמלול וסיכום. האפליקציה לא אוספת נתונים לשרתים של המפתח, אין בה פרסומות ואין בה מעקב.</p>
+
+  <section>
+    <h2>איפה נשמר המידע שלך</h2>
+    <ul>
+      <li>הקורסים, השיעורים, ההערות, הסיכומים, התמלילים וההקלטות נשמרים במכשיר שלך וב‑iCloud האישי שלך (Apple CloudKit), כדי שיסתנכרנו בין האייפון לאייפד. למפתח אין גישה אליהם.</li>
+      <li>מפתחות API (Gemini, Claude, OpenAI) ואישור הגישה למודל נשמרים רק ב‑Keychain של המכשיר.</li>
+      <li>מודל התמלול בעברית (ivrit.ai) רץ על המכשיר עצמו, וההקלטות לא יוצאות ממנו כשמשתמשים בו.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>שירותים חיצוניים שאתה בוחר להפעיל</h2>
+    <ul>
+      <li><strong>תמלול וסיכום בענן:</strong> אם הזנת מפתח של Google Gemini, Anthropic Claude או OpenAI, ההקלטה או הטקסט נשלחים ישירות מהמכשיר לספק שבחרת, עם המפתח שלך, ובכפוף למדיניות הפרטיות שלו. בלי מפתח, שום דבר לא נשלח.</li>
+      <li><strong>תמלול של Apple:</strong> אם בחרת בזיהוי הדיבור של Apple והאפשרות לשרתים מופעלת, האודיו מעובד על ידי Apple.</li>
+      <li><strong>Moodle:</strong> אם התחברת למודל של המוסד שלך, האפליקציה פונה ישירות לשרת המודל של המוסד כדי להציג קורסים, קבצים, מטלות וציונים. הקבצים שהורדת נשמרים במכשיר.</li>
+      <li><strong>NotebookLM ושיתוף:</strong> קבצים נשלחים לאפליקציות אחרות רק כשאתה לוחץ על שיתוף.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>הרשאות</h2>
+    <ul>
+      <li>מיקרופון: להקלטת שיעורים.</li>
+      <li>זיהוי דיבור: לתמלול עם המנוע של Apple.</li>
+      <li>התראות: תזכורת בוקר ותזכורות לפני בחנים.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>מחיקת מידע</h2>
+    <p>אפשר למחוק כל שיעור, הקלטה או קורס מתוך האפליקציה. מחיקת האפליקציה מוחקת את המידע מהמכשיר. את המידע ב‑iCloud אפשר למחוק בהגדרות ← [השם שלך] ← iCloud ← ניהול אחסון.</p>
+  </section>
+
+  <section>
+    <h2>ילדים</h2>
+    <p>האפליקציה מיועדת לסטודנטים ואינה מיועדת לילדים מתחת לגיל 13.</p>
+  </section>
+
+  <section>
+    <h2>יצירת קשר</h2>
+    <p>לשאלות על הפרטיות: <a href="support.html">עמוד התמיכה</a> · yomanhamechina@gmail.com</p>
+  </section>
+
+  <section dir="ltr" lang="en">
+    <h2>English summary</h2>
+    <p>Mechina Journal does not collect any data on the developer's servers and has no ads or tracking. Your courses, notes, recordings, transcripts and summaries stay on your device and in your private iCloud (CloudKit). API keys and the Moodle token are stored only in the device Keychain. The Hebrew speech model runs on device. Audio or text is sent to Google Gemini, Anthropic or OpenAI only if you enter your own API key, and directly from your device to that provider. Moodle is contacted only if you sign in to your institution's Moodle. You can delete any data in the app or by deleting the app and its iCloud data.</p>
+  </section>
+</main>
+
+</body>
+</html>

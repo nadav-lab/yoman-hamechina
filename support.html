@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>תמיכה – יומן המכינה</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Frank+Ruhl+Libre:wght@600&display=swap">
+<style>
+/* Layout: one readable column, plain legal document with clear section heads */
+:root {
+  --bg: #f7f6fb; --fg: #1d1a27; --muted: #5f5a73; --line: #dedbea; --accent: #4b3fb0;
+  --display: "Frank Ruhl Libre", "Times New Roman", serif;
+  --body: "Assistant", "Arial Hebrew", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #14121b; --fg: #ecebf3; --muted: #a39db6; --line: #2c2838; --accent: #a99cff; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #14121b; --fg: #ecebf3; --muted: #a39db6; --line: #2c2838; --accent: #a99cff; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.65; }
+main { max-width: 680px; margin: 0 auto; padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font-family: var(--display); font-size: 2rem; margin: 0 0 4px; text-wrap: balance; }
+.meta { color: var(--muted); font-size: .9rem; margin: 0 0 28px; }
+h2 { font-size: 1.15rem; margin: 30px 0 6px; color: var(--accent); text-wrap: balance; }
+p, li { margin: 0 0 10px; }
+ul { padding-inline-start: 22px; margin: 0 0 10px; }
+section { border-top: 1px solid var(--line); }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main dir="rtl" lang="he">
+  <h1>יומן המכינה – תמיכה</h1>
+  <p class="meta">אפליקציה לאייפון ולאייפד לסטודנטים: מערכת שעות, מטלות, הקלטת שיעורים, תמלול עברית וסיכומים.</p>
+  <section>
+    <h2>יצירת קשר</h2>
+    <p>לשאלות, תקלות והצעות: <strong>yomanhamechina@gmail.com</strong>. בדרך כלל עונים תוך יומיים.</p>
+  </section>
+  <section>
+    <h2>שאלות נפוצות</h2>
+    <p><strong>איך מתמללים בעברית בחינם?</strong> הגדרות ← תמלול וסיכום ← "הורד את מודל העברית" (פעם אחת, כ‑1.6GB ב‑Wi‑Fi). התמלול רץ על המכשיר, בלי אינטרנט.</p>
+    <p><strong>איך מקבלים סיכומים חכמים?</strong> מכניסים בהגדרות מפתח API של Google Gemini (יש מפתח חינמי ב‑aistudio.google.com). המפתח נשמר רק במכשיר.</p>
+    <p><strong>איך מתחברים למודל?</strong> בלשונית "מודל" ← "התחברות דרך האוניברסיטה". ההתחברות נעשית בחלון המאובטח של המוסד.</p>
+    <p><strong>האם הנתונים שלי נשמרים אצלכם?</strong> לא. הכול נשמר במכשיר וב‑iCloud הפרטי שלך. <a href="privacy.html">מדיניות הפרטיות</a>.</p>
+    <p><strong>איך מעבירים נתונים למכשיר אחר?</strong> הנתונים מסתנכרנים דרך iCloud. אפשר גם הגדרות ← ייצוא גיבוי, ובמכשיר השני ייבוא מגיבוי.</p>
+  </section>
+</main>
+</body>
+</html>
